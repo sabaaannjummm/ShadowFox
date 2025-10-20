@@ -1,0 +1,5 @@
+# If you want to force using sample data
+python run_dashboard.py
+
+#With CSV file
+python run_dashboard.py

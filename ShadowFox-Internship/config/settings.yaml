@@ -1,0 +1,32 @@
+project:
+  name: "Cricket Fielding Performance Analysis"
+  version: "1.0.0"
+  author: "ShadowFox Intern"
+  description: "Comprehensive analysis of IPL fielding data"
+
+data:
+  input_path: "data/raw/"
+  output_path: "data/processed/"
+  results_path: "data/outputs/"
+  
+analysis:
+  weights:
+    clean_picks: 1
+    good_throws: 1
+    catches: 3
+    dropped_catches: -3
+    stumpings: 3
+    run_outs: 3
+    missed_run_outs: -2
+    direct_hits: 2
+  
+visualization:
+  theme: "seaborn-v0_8-whitegrid"
+  palette: "viridis"
+  save_format: "png"
+  interactive: false
+
+reporting:
+  generate_pdf: false
+  include_charts: true
+  language: "english"
