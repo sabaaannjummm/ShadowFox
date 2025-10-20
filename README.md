@@ -32,3 +32,32 @@ This project analyzes fielding performance data from IPL cricket matches to prov
 ---
 
 ## 🏗️ Project Structure
+ShadowFox-Internship/
+├── 📁 data/
+│   ├── raw/
+│   │   └── ipl_fielding_data.csv          
+│   ├── processed/
+│   └── outputs/
+├── 📁 notebooks/
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_fielding_analysis.ipynb
+│   └── 03_advanced_insights.ipynb
+├── 📁 src/
+│   ├── __init__.py
+│   ├── data_loader.py                     
+│   ├── performance_calculator.py
+│   ├── visualizations.py
+│   └── analysis_tools.py
+├── 📁 tests/
+├── 📁 config/
+├── 📁 docs/
+├── 📁 results/
+│   ├── visualizations/
+│   ├── reports/
+│   └── dashboards/
+├── requirements.txt
+├── environment.yml
+├── README.md
+├── .gitignore
+├── main.py
+└── run_dashboard.py                       
